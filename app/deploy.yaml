@@ -15,7 +15,7 @@ spec:
         app: mydep
     spec:
       containers:
-      - image: 966145/app02:v1
+              - image: 966145/myserver121:latest
         name: app02
         ports:
         - containerPort: 80
